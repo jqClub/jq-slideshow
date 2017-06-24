@@ -1,0 +1,62 @@
+/* 3， 轮播图*/
+.gua-slide {
+    position: relative;
+    width: 590px;
+    margin: 0 auto;
+}
+/*图片样式*/
+.gua-slide-image {
+    display: none;
+}
+.gua-active {
+    display: inline-block;
+}
+/*左右按钮的样式*/
+.gua-slide-button {
+    position: absolute;
+    height: 50px;
+    width: 30px;
+    /**/
+    background: black;
+    color: white;
+    opacity: 0.3;
+    /**/
+    border: none;
+    /**/
+    cursor: pointer;
+}
+/*去掉边框的样式*/
+.gua-slide-button:focus {
+    outline: none;
+}
+/**/
+.gua-slide-button.gua-left {
+    left: 0;
+}
+.gua-slide-button.gua-right {
+    right: 0;
+}
+/* 用来垂直居中一个元素的套路 css */
+.gua-vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/**/
+.gua-slide-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*小圆点样式*/
+.gua-slide-indi {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+}
+.gua-white {
+    background: white;
+}
