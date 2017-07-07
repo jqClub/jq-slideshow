@@ -63,12 +63,12 @@ var bindEventIndicator = function() {
         showImageAtIndex(slide, index)
     })
 }
-// 上一张/下一张 切换
+// 下一张 切换
 var playNextImage = function() {
     var slide = e('.gua-slide')
-    // 求出下一个/上一张图片的 index
+    // 求出下一个图片的 index
     var index = nextIndex(slide, 1)
-    // 显示下一张 / 下一张图片
+    // 显示下一张图片
     showImageAtIndex(slide, index)
 }
 // 自动轮播函数
